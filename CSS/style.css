@@ -1,0 +1,49 @@
+.row-header {
+  margin: 0px auto;
+  padding: 0px auto;
+}
+.row-content {
+  margin: 0px auto;
+  padding: 0px auto;
+  border-bottom: 1px ridge;
+  min-height: 400px;
+}
+.footer {
+  background-color: #d1c4e9;
+  margin: 0px auto;
+  padding: 20px 0px 20px 0px;
+}
+
+.jumbotron {
+  padding: 70px 30px 70px 30px;
+  margin: 0px auto;
+  background: #9575cd;
+  color: floralwhite;
+}
+
+.address {
+  font-size: 80%;
+  margin-top: auto;
+  color: #0f0f0f;
+}
+
+/* Full-width input fields */
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="email"] {
+  width: 200%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1dcdc;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="date"]:focus,
+input[type="email"]:focus {
+  background-color: #f1dcdc;
+  outline: none;
+}
